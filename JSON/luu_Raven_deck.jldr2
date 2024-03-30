@@ -1,11 +1,6 @@
 {
   "decks": [
     {
-      "name": "Moon's Watch",
-      "iconTexture": "luu_moonswatch.png",
-      "cards": [ "luu_Raven", "luu_Jackalope", "GrizzlyBear", "Cat", ]
-    },
-    {
       "name": "Fliers",
       "iconTexture": "luu_fliers.png",
       "cards": [ "luu_Raven", "Raven", "Sparrow", "Sparrow", "Bat", ]
