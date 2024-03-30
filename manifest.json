@@ -1,0 +1,12 @@
+{
+    "name": "The_Raven",
+    "version_number": "1.0.0",
+    "website_url": "https://github.com/luuhoo/talkingraven",
+    "description": "Adds a talking Raven to Kaycee's Mod and Act I, with subtle lore. Works best when paired with Jackalope!",
+    "dependencies": [
+      "luuhoo-The_Jackalope-1.0.0",
+      "BepInEx-BepInExPack_Inscryption-5.4.1901",
+      "API_dev-API-2.9.1",
+      "MADH95Mods-JSONCardLoader-2.3.0"
+    ]
+}
