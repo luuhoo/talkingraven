@@ -1,0 +1,345 @@
+{
+  "cardName": "luu_Raven",
+  "faceSprite": "face.png",
+  "eyeSprites": {
+    "open": "neutral_eye_open.png",
+    "closed": "neutral_eye_closed.png"
+  },
+  "mouthSprites": {
+    "open": "neutral_mouth_open.png",
+    "closed": "neutral_mouth_closed.png"
+  },
+  "emissionSprite": "neutral_emission.png",
+  "faceInfo": {
+    "blinkRate": 1.5,
+    "voiceId": "female1_voice",
+    "voiceSoundPitch": 2
+  },
+  "emotions": [
+    {
+      "emotion": "Anger",
+      "eyeSprites": {
+        "open": "angry_eye_open.png",
+        "closed": "angry_eye_closed.png"
+      },
+      "mouthSprites": {
+        "open": "angry_mouth_open.png",
+        "closed": "angry_mouth_closed.png"
+      },
+      "emissionSprite": "angry_emission.png"
+    },
+    {
+      "emotion": "Quiet",
+      "eyeSprites": {
+        "open": "quiet_eye_open.png",
+        "closed": "quiet_eye_closed.png"
+      },
+      "mouthSprites": {
+        "open": "angry_mouth_open.png",
+        "closed": "angry_mouth_closed.png"
+      },
+      "emissionSprite": "quiet_emission.png"
+    },
+    {
+      "emotion": "Laughter",
+      "eyeSprites": {
+        "open": "laughing_eye_open.png",
+        "closed": "laughing_eye_closed.png"
+      },
+      "mouthSprites": {
+        "open": "neutral_mouth_open.png",
+        "closed": "neutral_mouth_closed.png"
+      },
+      "emissionSprite": "laughter_emission"
+    },
+    {
+      "emotion": "Surprise",
+      "eyeSprites": {
+        "open": "surprised_eye_open.png",
+        "closed": "surprised_eye_closed.png"
+      },
+      "mouthSprites": {
+        "open": "surprised_mouth_open.png",
+        "closed": "surprised_mouth_closed.png"
+      },
+      "emissionSprite": "surprised_emission.png"
+    }
+  ],
+  "dialogueEvents": [
+    {
+      "eventName": "OnDrawn",
+      "mainLines": [
+        "[e:surprise]Huh?",
+        "[e:laughter]Hello!",
+        "[e:laughter]I'm [e:neutral][w:0.5]Irons!",
+        "[e:neutral][c:][w:1]I'm the student",
+        "[e:neutral]of Astrella, the",
+        "[e:neutral]Scrybe of Wilds!",
+        "[e:quiet]Well, if I could find her..."
+      ],
+      "repeatLines": [
+        [
+          "[e:neutral]To the skies!"
+        ],
+        [
+          "[e:laughter]I swoop from above!"
+        ],
+        [
+          "[e:neutral]Lady Astrella has blessed me!"
+        ],
+        [
+          "[e:quiet]Another fight? But my wings hurt..."
+        ],
+        [
+          "[e:laughter]Oh! Oh! Are we going to play?"
+        ]
+      ]
+    },
+    {
+      "eventName": "OnPlayFromHand",
+      "mainLines": [
+        "[e:neutral]It's been so long...",
+        "[e:quiet]I hope I'll do well."
+      ],
+      "repeatLines": [
+        [
+          "[e:laughter]Yay, I'm out!"
+        ],
+        [
+          "[e:neutral]Let's do this!"
+        ],
+        [
+          "[e:laughter]Am I facing the right way?"
+        ],
+        [
+          "[e:neutral]From the trees!"
+        ],
+        [
+          "[e:neutral]The Moon weaves our fate!"
+        ],
+        [
+          "[e:quiet]Mmmhp...",
+          "[e:quiet]My wings hurt..."
+        ],
+        [
+          "[e:quiet]But I'm tired!"
+        ],
+        [
+          "[e:neutral]We've got this!"
+        ],
+        [
+          "[e:laughter]Hello, Leshy!",
+          "[w:1]How are- [leshy:...Silence.][w:2]"
+        ]
+      ]
+    },
+    {
+      "eventName": "ProspectorBoss",
+      "mainLines": [
+        "[e:surprise]Woah, hey...",
+        "[e:quiet]What is that?",
+        "[e:quiet]It's so loud!",
+        "[e:quiet]Can we wait for it",
+        "[e:quiet]to quiet down first?"
+      ],
+      "repeatLines": [
+        [
+          "[e:anger]Uggh, it's this guy",
+          "[e:anger]again!"
+        ],
+        [
+          "[e:anger]Let me at 'em!"
+        ],
+        [
+          "[e:anger]This guy makes",
+          "[e:anger]too much noise!"
+        ],
+        [
+          "[e:quiet]I have a headache..."
+        ]
+      ]
+    },
+    {
+      "eventName": "AnglerBoss",
+      "mainLines": [
+        "[e:surprise]Ew, this smell...",
+        "[e:surprise]Are those fish?!",
+        "[e:surprise]They smell so bad..."
+      ],
+      "repeatLines": [
+        [
+          "[e:neutral]That hook needs to be washed."
+        ],
+        [
+          "[e:laughter]Good fish, bad fish..."
+        ],
+        [
+          "[e:laughter]Try and catch me,",
+          "[e:laughter]fishies!"
+        ]
+      ]
+    },
+    {
+      "eventName": "TrapperTraderBoss",
+      "mainLines": [
+        "[e:neutral]Have we seen this person before...?",
+        "[e:laughter]I'm probably",
+        "[e:laughter]imagining things!"
+      ],
+      "repeatLines": [
+        [
+          "[e:quiet]All those knives...",
+          "[e:quiet]I'm getting dizzy..."
+        ],
+        [
+          "[e:quiet]I can't even fly over!"
+        ],
+        [
+          "[e:neutral]Can I get a blanket?"
+        ]
+      ]
+    },
+    {
+      "eventName": "LeshyBoss",
+      "mainLines": [
+        "[e:quiet]Leshy, what are you doing?",
+        "[e:quiet]What is this?",
+        "[leshy:A final dance.]"
+      ],
+      "repeatLines": [
+        [
+          "[e:neutral]Let's do this again, Leshy!"
+        ],
+        [
+          "[e:neutral]Moon's so pretty."
+        ],
+        [
+          "[e:laughter]Has anybody ever",
+          "[e:laughter]complimented your camera?",
+          "[leshy:...Once upon a time, yes.]"
+        ]
+      ]
+    },
+    {
+      "eventName": "OnAttacked",
+      "mainLines": [
+        "[e:quiet]Owww!"
+      ],
+      "repeatLines": [
+        [
+          "[e:quiet]That hurt!"
+        ],
+        [
+          "[e:quiet]Jerk!"
+        ],
+        [
+          "[e:anger]I'm gonna get you for that!"
+        ]
+      ]
+    },
+    {
+      "eventName": "OnBecomeSelectablePositive",
+      "mainLines": [
+        "[e:surprise]Woah, this is weird.",
+        "[e:neutral]Let me investigate!"
+      ],
+      "repeatLines": [
+        [
+          "[e:laughter]How cool!"
+        ],
+        [
+          "[e:laughter]Oh, oh! Pick me!"
+        ],
+        [
+          "[e:laughter]Lemme do it!"
+        ]
+      ]
+    },
+    {
+      "eventName": "RoyalBoss",
+      "mainLines": [
+        "[e:surprise]W-What the heck?!"
+      ],
+      "repeatLines": [
+        [
+          "[e:laughter]Are we playing pirate?!"
+        ],
+        [
+          "[e:surprise]Aaah! Cannons!"
+        ],
+        [
+          "[e:laughter]Oh! Oh!",
+          "[e:laughter]Human, can I",
+          "[e:laughter]be your parrot?!"
+        ]
+      ]
+    },
+    {
+      "eventName": "OnBecomeSelectableNegative",
+      "mainLines": [
+        "[e:quiet]...I'm scared."
+      ],
+      "repeatLines": [
+        [
+          "[e:quiet]...I don't wanna go!"
+        ],
+        [
+          "[e:quiet]I thought we were friends?"
+        ],
+        [
+          "[e:quiet]..."
+        ]
+      ]
+    },
+    {
+      "eventName": "OnSacrificed",
+      "mainLines": [
+        "[e:surprise]Wait! No! Stop!"
+      ],
+      "repeatLines": [
+        [
+          "[e:quiet]It's cold..."
+        ],
+        [
+          "[e:quiet]Tired..."
+        ],
+        [
+          "[e:quiet]Bye, friend..."
+        ]
+      ]
+    },
+    {
+      "eventName": "OnSelectedForDeckTrial",
+      "mainLines": [
+        "[e:surprise]Woah, what is this?",
+        "[e:surprise]Some sort of trial?",
+        "[e:surprise]Let's do it!"
+      ],
+      "repeatLines": [
+        [
+          "[e:laughter]Again! Again!"
+        ],
+        [
+          "[e:surprise]We've done this before!"
+        ],
+        [
+          "[e:neutral]We can do this!"
+        ]
+      ]
+    },
+    {
+      "eventName": "OnSelectedForCardRemove",
+      "mainLines": [
+        "[e:quiet]Holy stars..."
+      ],
+      "repeatLines": [
+        [
+          "[e:quiet]If it'll help you...!"
+        ],
+        [
+          "[e:quiet]Am I too weak?"
+        ]
+      ]
+    }
+  ]
+}
