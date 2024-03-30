@@ -7,11 +7,8 @@ Irons (Raven) has unique lore, animated portraits, a unique voice pitch, and uni
 In addition, this mod also adds 2 starter decks:
 | Name            | Cards                                                      |
 |-----------------|------------------------------------------------------------|
-| Moon's Watch*   | Jackalope (Talking), Raven (Talking), Grizzly Bear, Cat    |
 | Fliers          | Raven (Talking), Raven, Sparrow, Sparrow, Bat              |
 | Trash Animals   | Raven (Talking), Ringworm, Raccoon, Bat, Magpie, Opossum   |
-
-*Moon's Watch pack is only avaliable when used alongside the Jackalope mod!
 
 
 # Installation
